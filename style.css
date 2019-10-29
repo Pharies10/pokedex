@@ -51,3 +51,99 @@
     
     
 }
+
+
+
+
+
+
+
+
+
+
+
+/* page 2 pokeView */
+
+#sidebarholder
+{
+    
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: black;
+    height: 100%;
+    width:30%;
+}
+
+#sidebartitle
+{
+    
+    height:10%;
+    color: white;
+    text-align: center;
+    background-color: black;
+    
+}
+
+#pokemonholder
+{
+    
+    height:90%;
+    bottom: 0px;
+    background-color: red;
+    overflow: auto;
+    
+    
+    
+    
+}
+
+
+.pokemonEntry
+{
+    
+    border: solid;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 35px;
+    background-color: white;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20pt;
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+#infoholder
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
