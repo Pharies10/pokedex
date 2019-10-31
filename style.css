@@ -63,7 +63,19 @@
 
 
 /* page 2 pokeView */
-
+#searchBar
+{
+    
+    position: fixed;
+    left: 0px;
+    top:0px;
+    width: 70%;
+    height: 5%;
+    background-color:indianred;
+    padding-top: 10px;
+    overflow: auto;
+    
+}
 #sidebarholder
 {
     
@@ -126,11 +138,11 @@
 {
     position: fixed;
     left: 0px;
-    top: 0px;
+    bottom: 0px;
     width: 70%;
-    height: 100%;
-    background-color: white;
-    
+    height: 95%;
+    background-color: darkred;
+    overflow: auto;
     
     
     
@@ -138,8 +150,34 @@
 }
 
 
+.pokeInfo
+{
+
+    text-align: center;
+    height: 100px;
+    width: 40%;
+    margin: 30px;
+    padding-top: 50px;
+    font-size: 30pt;
+    border: solid;
+    background-color: white;
+    text-transform: uppercase;
+    margin-left: 30%;
+    
+    
+}
 
 
+span
+{
+    
+    margin-left: 20px;
+    color: black;
+    font-size: 15pt;
+    
+    text-transform: uppercase;
+    
+}
 
 
 

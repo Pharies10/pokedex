@@ -1,3 +1,10 @@
+// Jack and Christian
+// Pokedex API Project
+
+
+
+//main function
+// makes initial promise
 var main = function()
 {
     
@@ -10,8 +17,10 @@ var main = function()
 
 
 
-//make success
-//make fail
+// success and fail function for the pokedex promise
+// input: data from the promise
+// success: will grab the lists of pokedexs from the data change the title of index.html and the call makedex()
+// fail: prints out failure and changes the title
 var success = function(data)
 {
     
@@ -50,10 +59,9 @@ var makeDex = function(data)
                     .append("div")
                     .attr("class", "pokedex")
                     .text(function(d) { return d.name})
-                    .on("click", function(d){
-                        
-                        
-                        
+                    .on("click", function(d)
+                    {
+
                         selectedDex = d.url
                         
                         var url = createURL(selectedDex)
