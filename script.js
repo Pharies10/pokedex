@@ -84,7 +84,7 @@ var createURL = function(pokedex)
 {
     
     // removes "/pokedex" outside of github
-    var url = "/pokedex" + /pokeView.html" + "?" + "url=" + pokedex
+    var url = "/pokedex" + "/pokeView.html" + "?" + "url=" + pokedex
     console.log(url)
     return url
     
